@@ -1,0 +1,28 @@
+step 1 : install packages
+    pip install speechrecognition pyaudio  ## to recognize our speech 
+    pip install setuptools
+    pip install pocketsphinx ## for voice command
+
+
+
+except sr.UnknownValueError:
+    print("Whistle could not understand audio") 
+
+
+def processCommand(c):
+    if "open google" in c.lower():
+        webbrowser.open("https://google.com")
+    elif "open instagram" in c.lower():
+        webbrowser.open("https://instagram.com")
+    elif "open facebook" in c.lower():
+        webbrowser.open("https://facebook.com")
+    elif "open youtube" in c.lower():
+        webbrowser.open("https://youtube.com")
+    elif "open linkedin" in c.lower():
+        webbrowser.open("https://linkedin.com")
+    elif "open chatgpt" in c.lower():
+        webbrowser.open("https://chatgpt.com")
+    elif c.lower().startswith("play"):
+        song = c.lower().split(" ")[1]
+        link = musicLibrary.music[song]
+        webbrowser.open(link)

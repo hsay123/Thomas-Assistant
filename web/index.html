@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Thomas Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@latest/build/spline-viewer.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Thomas Assistant</h1>
+      <div class="hero" id="hero">
+        <spline-viewer id="spline" url="https://prod.spline.design/Ifotq33fMx59M58s/scene.splinecode" tabindex="0"></spline-viewer>
+        <button id="fsBtn" class="floating">⤢</button>
+      </div>
+      <div class="controls">
+        <button id="micBtn">🎤 Speak</button>
+        <input id="textInput" placeholder="Type a command..." />
+        <button id="sendBtn">Send</button>
+      </div>
+      <div id="response" class="response"></div>
+      <div id="news" class="news"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  </html>
+
