@@ -60,7 +60,7 @@ Thomas-Assistant/
 
 
 
-
+---
 ---
 
 ## Supported Commands
