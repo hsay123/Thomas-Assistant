@@ -59,10 +59,6 @@ Thomas-Assistant/
 </div>
 
 
-
----
----
-
 ## Supported Commands
 
 | Command | Action |
