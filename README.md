@@ -55,11 +55,11 @@ Thomas-Assistant/
 
 
 <div align="center">
-  <img src="Screenshot From 2026-03-24 23-41-35.png" width="800" alt="System Architecture" style="border-radius:10px; />
+  <img src="system architecture.png" width="800" alt="System Architecture" style="border-radius:10px; />
 </div>
 
-    
-```
+---
+  
 
 ## Supported Commands
 
